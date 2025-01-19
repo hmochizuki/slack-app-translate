@@ -1,5 +1,5 @@
 import axios from 'axios';
-import cheerio from 'cheerio';
+import * as cheerio from 'cheerio';
 
 /**
  * 指定されたURLからHTMLを取得し、記事の本文を抽出します。
